@@ -13,6 +13,16 @@ export const Header = styled.div`
     grid-template-columns: repeat(5, 1fr);
     padding: 10px;
     border-bottom: 1px solid #b5b5b5;
+    justify-content: center;
+
+    @media (max-width: 1050px) {
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 670px) {
+        display: none;
+        width: 350px;
+    }
 
     p {
         font-size: 16px;
@@ -26,6 +36,23 @@ export const Body = styled.div`
     padding: 10px;
     min-width: 80px;
     grid-gap: 10px 15px;
+    justify-content: center;
+
+    @media (max-width: 1050px) {
+        grid-template-columns: 1fr 2fr 1fr 1fr 1fr;
+    }
+
+    @media (max-width: 670px) {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        margin-bottom: 60px;
+    }
+
+    .image-container {
+        display: flex;
+        justify-content: center;
+    }
 
     img {
         border-radius: 10px;
@@ -38,13 +65,19 @@ export const Body = styled.div`
     p {
         font-size: 16px;
         color: #000000;
-        width: 180px;
+        max-width: 180px;
+        @media (max-width: 670px) {
+            text-align: center;
+            max-width: 380px;
+        }
     }
 
     .quantity-container {
         display: flex;
         gap: 10px;
-        width: 30px;
+        @media (max-width: 670px) {
+            justify-content: center;
+        }
 
         button {
             height: 30px;

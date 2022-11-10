@@ -14,9 +14,22 @@ export const ContainerLeft = styled.div`
     display: flex;
     align-content: left;
     gap: 50px;
+
+    p {
+        @media (max-width: 480px) {
+            display: none;
+        }
+    }
 `
 
-export const ContainerRight = styled.div``
+export const ContainerRight = styled.div`
+    display: flex;
+
+    p {
+        color: #9758a6;
+        padding-left: 10px;
+    }
+`
 
 export const PageLink = styled.a`
     cursor: pointer;

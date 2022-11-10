@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { useHistory } from 'react-router-dom'
 
 import Cart from '../../assets/cart.svg'
+import { useCart } from '../../hooks/CartContext'
 import { Container, ContainerLeft, ContainerRight, PageLink } from './styles'
 
 export function Header() {
@@ -9,6 +10,17 @@ export function Header() {
         push,
         location: { pathname },
     } = useHistory()
+
+    const { cartProducts } = useCart()
+    const [finaItems, setFinalItems] = useState(0)
+
+    useEffect(() => {
+        const sumItems = cartProducts.reduce((acc, current) => {
+            return current.quantity + acc
+        }, 0)
+
+        setFinalItems(sumItems)
+    }, [cartProducts])
 
     return (
         <Container>
@@ -22,13 +34,13 @@ export function Header() {
                 </PageLink>
             </ContainerLeft>
             <ContainerRight>
-                <div></div>
                 <PageLink
                     onClick={() => push('cart')}
                     isActive={pathname.includes('cart')}
                 >
                     <img src={Cart} alt="cart image" />
                 </PageLink>
+                <p> ({finaItems} items) </p>
             </ContainerRight>
         </Container>
     )

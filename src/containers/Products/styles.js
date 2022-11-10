@@ -7,6 +7,9 @@ export const Container = styled.div`
 
 export const ProductsImg = styled.img`
     width: 100%;
+    @media (max-width: 480px) {
+        display: none;
+    }
 `
 
 export const CategoriesMenu = styled.div`
@@ -14,6 +17,12 @@ export const CategoriesMenu = styled.div`
     justify-content: center;
     gap: 50px;
     margin-top: 20px;
+    @media (max-width: 670px) {
+        gap: 10px;
+    }
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
 `
 
 export const CategoryButton = styled.button`

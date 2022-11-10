@@ -8,18 +8,19 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    width: 250px;
 
     .container-top {
         display: grid;
         grid-gap: 10px 50px;
         grid-template-areas:
             'title title'
-            'items items-price'
-            'delivery-tax delivery-tax-price';
+            'items items-price';
 
         .title {
             grid-area: title;
             margin-bottom: 20px;
+            text-align: center;
         }
 
         .items {
@@ -35,7 +36,7 @@ export const Container = styled.div`
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        font-size: 20px;
+        font-size: 18px;
         margin-top: 50px;
     }
 `

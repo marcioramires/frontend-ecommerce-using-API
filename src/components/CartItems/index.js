@@ -19,9 +19,11 @@ export function CartItems() {
             {cartProducts && cartProducts.length > 0 ? (
                 cartProducts.map((product) => (
                     <Body key={product.id}>
-                        <img src={product.image} />
+                        <div className="image-container">
+                            <img src={product.image} />
+                        </div>
                         <p>{product.title}</p>
-                        <p>{formatCurrency(product.price)}</p>
+                        <p className="price">{formatCurrency(product.price)}</p>
                         <div className="quantity-container">
                             <button onClick={() => removeProducts(product)}>
                                 -
