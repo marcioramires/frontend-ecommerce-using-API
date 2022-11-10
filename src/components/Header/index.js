@@ -27,8 +27,8 @@ export function Header() {
             <ContainerLeft>
                 <p>Welcome To Our Store!</p>
                 <PageLink
-                    onClick={() => push('/products')}
-                    isActive={pathname.includes('products')}
+                    onClick={() => push('/')}
+                    isActive={pathname.endsWith('/')}
                 >
                     See Products
                 </PageLink>
