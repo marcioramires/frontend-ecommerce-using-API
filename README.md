@@ -1,8 +1,8 @@
 # Mini e-commerce
 
 Projeto front-end desenvolvido em React JS com a utilização da [FakeStoreAPI](https://fakestoreapi.com), para consulta ao sistema back-end de um e-commerce.
-
-@
+#
+#
 # 🚀 Tecnologias:
  
 Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliotecas:
@@ -29,7 +29,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliot
 #
 # 💻 Funcionalidades:
 Essa loja on-line permite e possui como funcionalidades, que podem ser verificadas no deploy:
-#
+
 - Os itens podem ser atualizados (adicionados e/ou removidos) no carrinho individualmente.
 - O carrinho apresenta a quantidade de itens de forma detalhada e tabém de forma total.
 - O carrinho apresenta o valor dos itens de forma detalhada e também de forma total.
@@ -38,5 +38,5 @@ Essa loja on-line permite e possui como funcionalidades, que podem ser verificad
 #
 #
 # 🚀 Deploy:
-#
+
 .
