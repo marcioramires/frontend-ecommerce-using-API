@@ -1,10 +1,10 @@
-<b>Mini e-commerce</b>
-<br>
-Projeto front-end desenvolvido em React JS com a utilização da API Rest Fake Store API ( https://fakestoreapi.com/ ), para consulta ao sistema back-end de um e-commerce.
-<br>
-<br>
-🚀 Tecnologias:
+# Mini e-commerce
 
+Projeto front-end desenvolvido em React JS com a utilização da [FakeStoreAPI](https://fakestoreapi.com), para consulta ao sistema back-end de um e-commerce.
+
+
+# 🚀 Tecnologias:
+ 
 Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliotecas:
 
 - React
@@ -25,9 +25,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliot
 - eslint-plugin-prettier
 
 - editorconfig for vs code (generate .editorconfig)
-<br>
-<br>
-💻 Funcionalidades:
+
+
+# 💻 Funcionalidades:
 
 Essa loja on-line permite e possui como funcionalidades, que podem ser verificadas no deploy:
 
@@ -36,10 +36,8 @@ Essa loja on-line permite e possui como funcionalidades, que podem ser verificad
 - O carrinho apresenta o valor dos itens de forma detalhada e também de forma total.
 - As informações dd categorias dos produtos, as imagens e demais informações de preço, nome e descrição dos produtos são consultadas diretamente da API Rest - Fake Store API. Simulando a exata funcionalidade de um front-end e-commerce.
 - O lay-out é responsivo para telas de computadores e dispositivos móveis.
-<br>
-<br>
-🚀 Deploy:
+
+
+# 🚀 Deploy:
 
 .
-<br>
-<br>
