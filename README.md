@@ -2,9 +2,10 @@
 
 Projeto front-end desenvolvido em React JS com a utilização da [FakeStoreAPI](https://fakestoreapi.com), para consulta ao sistema back-end de um e-commerce.
 #
-![ecommerce01](https://user-images.githubusercontent.com/113479357/201253637-157bd912-a71f-4fb1-aa37-9a7c570d93d8.png)
+![ecommerce01](https://user-images.githubusercontent.com/113479357/201253952-592a3eef-4e44-4089-b6aa-9db9649bfe78.png)
 #
-![ecommerce02](https://user-images.githubusercontent.com/113479357/201253662-62891480-49d4-451f-b546-5c37350b4aad.png)
+![ecommerce02](https://user-images.githubusercontent.com/113479357/201253983-81a5bd9f-346e-479c-861c-a95633087d58.png)
+#
 # 🚀 Tecnologias:
  
 Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas e bibliotecas:
