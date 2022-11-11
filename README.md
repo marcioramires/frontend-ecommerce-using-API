@@ -5,7 +5,7 @@ Projeto front-end desenvolvido em React JS com a utilização da [FakeStoreAPI](
 #
 # 🚀 Tecnologias:
  
-Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliotecas:
+Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas e bibliotecas:
 
 - React
 - styled-components
