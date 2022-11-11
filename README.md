@@ -12,6 +12,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas e biblio
 
 - React
 - styled-components
+- yarn
 - hooks
 - axios
 - prop-types
