@@ -25,19 +25,19 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliot
 - eslint-plugin-prettier
 
 - editorconfig for vs code (generate .editorconfig)
-
-
+#
+#
 # 💻 Funcionalidades:
-
+#
 Essa loja on-line permite e possui como funcionalidades, que podem ser verificadas no deploy:
-
+#
 - Os itens podem ser atualizados (adicionados e/ou removidos) no carrinho individualmente.
 - O carrinho apresenta a quantidade de itens de forma detalhada e tabém de forma total.
 - O carrinho apresenta o valor dos itens de forma detalhada e também de forma total.
-- As informações dd categorias dos produtos, as imagens e demais informações de preço, nome e descrição dos produtos são consultadas diretamente da API Rest - Fake Store API. Simulando a exata funcionalidade de um front-end e-commerce.
+- As informações das categorias dos produtos, as imagens e demais informações como preço, nome e descrição dos produtos são consultadas diretamente da [FakeStoreAPI](https://fakestoreapi.com). Simulando a exata funcionalidade de um front-end e-commerce.
 - O lay-out é responsivo para telas de computadores e dispositivos móveis.
-
-
+#
+#
 # 🚀 Deploy:
-
+#
 .
