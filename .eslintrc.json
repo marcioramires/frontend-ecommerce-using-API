@@ -43,7 +43,9 @@
         ],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-        "prettier/prettier": ["error",{"singleQuote": false}],
+        "prettier/prettier": ["error", {
+            "endOfLine":"auto"
+          }],
         "no-unused-vars": "warn"
     }
 }
