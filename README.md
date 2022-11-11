@@ -36,3 +36,6 @@ Essa loja on-line permite e possui como funcionalidades:
 - O lay-out é responsivo para telas de computadores e dispositivos móveis.
 #
 #
+😎 Deploy:
+- [Mini e-Commerce](https://mini-ecommerce-mg.netlify.app/)
+#
