@@ -9,21 +9,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas, bibliot
 
 - React
 - styled-components
-
-- React-DOM
 - hooks
 - axios
 - prop-types
-
 - JSX
-
 - eslint
 - prettier
 - eslint-plugin-import-helpers
 - eslint-plugin-react-hooks
 - eslint-config-prettier
 - eslint-plugin-prettier
-
 - editorconfig for vs code (generate .editorconfig)
 #
 #
