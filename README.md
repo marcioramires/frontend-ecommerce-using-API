@@ -26,7 +26,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias, ferramentas e biblio
 #
 #
 # 💻 Funcionalidades:
-Essa loja on-line permite e possui como funcionalidades, que podem ser verificadas no deploy:
+Essa loja on-line permite e possui como funcionalidades:
 
 - Os itens podem ser atualizados (adicionados e/ou removidos) no carrinho individualmente.
 - O carrinho apresenta a quantidade de itens de forma detalhada e tabém de forma total.
@@ -35,6 +35,3 @@ Essa loja on-line permite e possui como funcionalidades, que podem ser verificad
 - O lay-out é responsivo para telas de computadores e dispositivos móveis.
 #
 #
-# 🚀 Deploy:
-
-.
